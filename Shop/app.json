@@ -1,0 +1,11 @@
+{
+  "subPackageBuildType": "shared",
+  "pages": [
+    "pages/index/index",
+    "pages/menu/menu"
+  ],
+  "window": {
+    "defaultTitle": "Rocket Cookies",
+    "titleBarColor": "#F865FA"
+  }
+}

@@ -1,0 +1,51 @@
+<view class="container">
+  <scroll-view scroll-y={{true}} scroll-x >
+    <view>
+      <image mode="aspectFit" src="https://img.freepik.com/vector-gratis/conjunto-galletas-avena-rotas-galleta-tradicional-americana-crujidos-chocolate-aislado-blanco-ilustracion-comida-casera-receta-concepto-bocadillos_74855-14297.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1706745600&semt=ais" class="poster"/>
+    </view>
+    <view class="mainbox">
+     <text class="indextext">Invite friends</text>
+    </view>
+      <view class="auxbox">
+        <view class="box" onTap="Tab">
+         <image mode="aspectFit" src="../../Images/Dolly_s_Dough_Gift_Card_New_York_Style_Cookies.png" class="img"/>
+          <view class="contenttitles">I want to tell you..
+          </view>
+        </view>
+    </view>
+    <view class="mainbox">
+      <text class="indextext">Gift Cards!!!</text>
+    </view>
+    <view class="auxbox">
+      <view class="box" onTap="Tab">
+       <image mode="aspectFit" src="https://www.dollysdough.co.uk/cdn/shop/files/Dolly_s_Dough_Gift_Card_New_York_Style_Cookies.png?v=1696885635" />
+        <text class="contenttitles">I want to tell you..</text>
+      </view>
+      <view class="box" onTap="Tab">
+       <image mode="aspectFit" src="https://www.dollysdough.co.uk/cdn/shop/files/Dolly_s_Dough_Gift_Card_New_York_Style_Cookies.png?v=1696885635"/>
+       <text class="contenttitles">For Greetings</text>
+      </view>
+  </view>
+  <view class="auxbox">
+    <view class="box" onTap="Tab">
+     <image mode="aspectFit" src="https://www.dollysdough.co.uk/cdn/shop/files/Dolly_s_Dough_Gift_Card_New_York_Style_Cookies.png?v=1696885635" />
+      <text class="contenttitles">I want to tell you..</text>
+    </view>
+    <view class="box" onTap="Tab">
+     <image mode="aspectFit" src="https://www.dollysdough.co.uk/cdn/shop/files/Dolly_s_Dough_Gift_Card_New_York_Style_Cookies.png?v=1696885635"/>
+     <text class="contenttitles">For Greetings</text>
+    </view>
+</view>
+<view class="auxbox">
+        <view class="box" onTap="Tab">
+         <image mode="aspectFit" src="https://www.dollysdough.co.uk/cdn/shop/files/Dolly_s_Dough_Gift_Card_New_York_Style_Cookies.png?v=1696885635" />
+          <text class="contenttitles">I want to tell you..</text>
+        </view>
+        <view class="box" onTap="Tab">
+         <image mode="aspectFit" src="https://www.dollysdough.co.uk/cdn/shop/files/Dolly_s_Dough_Gift_Card_New_York_Style_Cookies.png?v=1696885635"/>
+         <text class="contenttitles">For Greetings</text>
+        </view>
+    </view>
+<gift-card-picker text="Mi texto"></gift-card-picker>
+</scroll-view>
+</view>

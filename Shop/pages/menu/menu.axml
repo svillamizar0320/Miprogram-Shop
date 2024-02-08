@@ -1,0 +1,64 @@
+<view>
+  <scroll-view scroll-y ={{true}}>
+    <view>
+      <image mode="aspectFit" src="https://img.freepik.com/vector-gratis/conjunto-galletas-avena-rotas-galleta-tradicional-americana-crujidos-chocolate-aislado-blanco-ilustracion-comida-casera-receta-concepto-bocadillos_74855-14297.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1706745600&semt=ais" class="poster"/>
+    </view>
+    <view class="menu">
+      <view class="product">
+        <view class="name">Coffe</view>
+        <view class="price">3$</view>
+        <view class="controls">
+          <button size="mini" type="Ghost" onTap="decreaseamount">-</button>
+          <view class="amount" id="number-1">0</view>
+          <button size="mini" type="Ghost" onTap="increaseamount">+</button>
+        </view>
+      </view>
+      <view class="product">
+        <view class="name">Coffe</view>
+        <view class="price">3$</view>
+        <view class="controls">
+          <button size="mini" type="Ghost" onTap="decreaseamount">-</button>
+          <view class="amount" id="number-1">0</view>
+          <button size="mini" type="Ghost" onTap="increaseamount">+</button>
+        </view>
+      </view>
+      <view class="product">
+        <view class="name">Coffe</view>
+        <view class="price">3$</view>
+        <view class="controls">
+          <button size="mini" type="Ghost" onTap="decreaseamount">-</button>
+          <view class="amount" id="number-1">0</view>
+          <button size="mini" type="Ghost" onTap="increaseamount">+</button>
+        </view>
+      </view>
+      <view class="product">
+        <view class="name">Coffe</view>
+        <view class="price">3$</view>
+        <view class="controls">
+          <button size="mini" type="Ghost" onTap="decreaseamount">-</button>
+          <view class="amount" id="number-1">0</view>
+          <button size="mini" type="Ghost" onTap="increaseamount">+</button>
+        </view>
+      </view>
+      <view class="product">
+        <view class="name">Coffe</view>
+        <view class="price">3$</view>
+        <view class="controls">
+          <button size="mini" type="Ghost" onTap="decreaseamount">-</button>
+          <view class="amount" id="number-1">0</view>
+          <button size="mini" type="Ghost" onTap="increaseamount">+</button>
+        </view>
+      </view>
+      <view class="product">
+        <view class="name">Coffe</view>
+        <view class="price">3$</view>
+        <view class="controls">
+          <button size="mini" type="Ghost" onTap="decreaseamount">-</button>
+          <view class="amount" id="number-1">0</view>
+          <button size="mini" type="Ghost" onTap="increaseamount">+</button>
+        </view>
+      </view>
+    </view>
+    <button size="big" type="primary" class="paybutton">Go PAY</button>
+  </scroll-view>
+</view>
